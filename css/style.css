@@ -209,6 +209,24 @@ main {
     margin: 10px 0 0;
 }
 
+#btnleft{
+    color: #CCCCCC;
+    background-color: #262b77;
+    height: 70px;
+    width: 100px;
+    margin-left: 70%;
+    clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
+}
+
+#btnright{
+    color: #CCCCCC;
+    background-color: #262b77;
+    height: 70px;
+    width: 100px;
+    margin-left: 25%;
+    clip-path: polygon(100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0 0);
+}
+
 @media screen and (max-width: 1600px) {
     body { 
         font-size: 14px;
